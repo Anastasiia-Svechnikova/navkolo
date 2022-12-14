@@ -1,24 +1,17 @@
 {
-  "author": "WeAreAthlon <hello@weareathlon.com> (https://www.weareathlon.com)",
-  "name": "@weareathlon/frontend-webpack-boilerplate",
-  "version": "5.15.0",
-  "description": "Starter project template boilerplate based on Webpack with SASS/PostCSS and babel ES6/7 support.",
-  "homepage": "https://github.com/WeAreAthlon/frontend-webpack-boilerplate#readme",
+  "author": "Anastasiia Svechnikova",
+  "name": "navkolo",
+  "version": "1.0.0",
+  "description": "Adaptive landing page, furniture manufacturer",
+  "homepage": "https://github.com/Anastasiia-Svechnikova/navkolo#readme",
   "browserslist": [
     "last 2 versions",
     "> 5%"
   ],
   "bugs": {
-    "url": "https://github.com/WeAreAthlon/frontend-webpack-boilerplate/issues",
-    "email": "plamen@athlonsofia.com"
+    "url": "https://github.com/Anastasiia-Svechnikova/navkolo/issues",
+    "email": "svechnikova.anastasiia@gmail.com"
   },
-  "contributors": [
-    {
-      "name": "Plamen Nikolov",
-      "email": "me@pnikoloff.com",
-      "url": "https://pnikoloff.com"
-    }
-  ],
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@babel/preset-env": "^7.16.0",
@@ -57,18 +50,7 @@
   "engines": {
     "node": ">=14"
   },
-  "keywords": [
-    "webpack",
-    "boilerplate",
-    "template",
-    "setup"
-  ],
-  "license": "MIT",
-  "private": false,
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:WeAreAthlon/frontend-webpack-boilerplate.git"
-  },
+  "private": true,
   "scripts": {
     "build": "webpack --config configuration/webpack.dev.config.js --mode=development",
     "watch": "webpack --config configuration/webpack.dev.config.js --mode=development --watch",
@@ -79,6 +61,5 @@
     "lint:js": "eslint --ext .js src/js/",
     "stats": "webpack --config configuration/webpack.prod.config.js --mode=production --json > dist/stats.json && webpack-bundle-analyzer dist/stats.json"
   },
-  "target": "web",
   "dependencies": {}
 }
